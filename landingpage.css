@@ -228,7 +228,7 @@ a {
 }
 
 .texto-como{
-    width: 50%;
+    width: 75%;
     font-size: 130%;
     font-weight: 500;
 }
@@ -237,7 +237,7 @@ a {
     font-size: 300%;
     color: #071c20;
     font-weight: 900;
-    width: 65%;
+    width: 100%;
 }
 
 #texto-como-esquerda{
