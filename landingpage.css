@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@100&display=swap');
 
+<<<<<<< HEAD
 /* =-=-=-=-=-=-=-=-=-=-= Configurações iniciais =-=-=-=-=-=-=-=-=-=-= */
+=======
+/* Configurações iniciais */
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+}
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
 
 *{
     font-family: "Montserrat", sans-serif;
@@ -14,10 +24,16 @@ body {
     overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 /* =-=-=-=-=-=-=-=-=-=-= Configurações da nav/header =-=-=-=-=-=-=-=-=-=-= */
 
 header {    
     z-index: 1;
+=======
+/* =-=-=-=-=-=-=-=-=-=-= Configurações da nav/header =-=-=-=-=-=-=-=-=-=-=*/
+
+header {    
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     width: 100%;
     background-color: #071c20;
     color: white;
@@ -30,7 +46,11 @@ header {
 }
 
 hr{
+<<<<<<< HEAD
     margin: 3% 5% 3% 5%;
+=======
+    margin: 3% 10% 3% 10%;
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
 }
 
 header h1 {
@@ -46,7 +66,10 @@ header ul {
 }
 
 li {
+<<<<<<< HEAD
     font-weight: 600;
+=======
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     margin: 0px 15px;
 }
 
@@ -84,7 +107,11 @@ a {
 .aprsapp {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     padding: 12% 0% 8% 0%;
+=======
+    padding: 5% 0% 8% 0%;
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     background-color: #0a262c;
     color: rgb(255, 255, 255);
     justify-content: center;
@@ -119,6 +146,7 @@ a {
     font-size: 600%;
 }
 
+<<<<<<< HEAD
 #baixar{
     background-color: #867151;
     border-radius: 10px;
@@ -144,6 +172,9 @@ a {
     line-height: 150%;
     margin: 3% 0%;
 }
+=======
+/* =-=-=-=-=-=-=-=-=-=-= Estilização da parte de "Materiais Usados" =-=-=-=-=-=-=-=-=-=-=*/
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
 
 #baixe-botao{
     color: white;
@@ -175,6 +206,10 @@ a {
 .marketplace img{
     margin-left: 2%;
     display: flex;
+<<<<<<< HEAD
+=======
+    height: 500px;
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     margin-bottom: 10px;
 }
 
@@ -251,6 +286,12 @@ a {
     margin: 6% 0%;
 }
 
+/* =-=-=-=-=-=-=-=-=-=-= Configurações da parte de "como" =-=-=-=-=-=-=-=-=-=-=*/
+
+.como{
+    margin: 10% 0%;
+}
+
 .direita{
     display: flex;
     align-items: center;
@@ -269,7 +310,11 @@ a {
 .texto-como{
     width: 75%;
     font-size: 130%;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: 500;
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
 }
 
 .titulo-como{
@@ -277,18 +322,29 @@ a {
     color: #071c20;
     font-weight: 900;
     width: 100%;
+<<<<<<< HEAD
     margin-bottom: 1%;
+=======
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
 }
 
 #texto-como-esquerda{
     width: 80%;
     font-size: 130%;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: 500;
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
 }
 
 #esquerda{
     display: flex;
+<<<<<<< HEAD
     margin: 5% 0%;
+=======
+    margin: 10% 0%;
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     align-items: center;
 }
 
@@ -300,6 +356,7 @@ a {
     width: 120%;
 }
 
+<<<<<<< HEAD
 /* =-=-=-=-=-=-=-=-=-=-= Estilização da parte de "Baixe já" =-=-=-=-=-=-=-=-=-=-=*/
 
 #imagem-empresa{
@@ -317,9 +374,15 @@ a {
 
 #baixe-ja{
     justify-content: center;
+=======
+/* =-=-=-=-=-=-=-=-=-=-= Estilização da parte de "quem somos" =-=-=-=-=-=-=-=-=-=-=*/
+
+.quem-somos{
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     display: flex;
     padding-bottom: 2%;
     width: 100%;
+<<<<<<< HEAD
 }
 
 #prp-texto{
@@ -349,18 +412,107 @@ a {
     margin: 0% 40% 0% 0%;
 }
 
+=======
+    justify-content: center;
+}
+
+.quem-somos-texto{
+    color: #0a262c;
+    margin: 0% 12% 0% 0%;
+    width: 60%;
+}
+
+.construconecta{
+    font-size: 140%;
+    margin: 0% 0% 4% 12%;
+    width: 60%;
+}
+
+#quem-somos-titulo{
+    margin: 0% 11%;
+    padding: 0% 0% 5% 0%;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+#imagem-empresa img{
+    width: 22rem;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-= Estilização do carrossel - Apresentação da equipe =-=-=-=-=-=-=-=-=-=-=*/
+
+#eq{
+    font-size: 350%;
+}
+
+.apr-equipe{
+    text-align: center;
+}
+
+.carrossel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0% 0% 5% 0%;
+
+}
+
+.slide{
+    justify-content: space-between;
+    display: flex;
+    display: none;
+}
+
+.foto-equipe {
+    width: 300px;
+    margin: 2%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.botao-carrossel{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.active{
+    display: block;
+}
+
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
 /* =-=-=-=-=-=-=-=-=-=-= Configurações do footer =-=-=-=-=-=-=-=-=-=-=*/
 
 footer {
     background-color: #062530;
     color: #ffffff;
+<<<<<<< HEAD
     padding: 3% 0%;
+=======
+    padding: 1% 0%;
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
 #frase{
+=======
+.frase{
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     width: 30%;
     font-style: italic;
     font-size: 125%;
@@ -385,21 +537,90 @@ footer {
     display: flex;
     flex-direction: column;
     list-style: none;
+<<<<<<< HEAD
 }
 
 #direitos {
+=======
+    padding: 0%;
+}
+
+.direitos {
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     background-color: #062530;
     color: white;
     text-align: center;
     padding: 0.4% 0%;
     font-size: 80%;
+<<<<<<< HEAD
 }
 
+=======
+}
+
+#imagem-empresa{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+#baixar{
+    background-color: #867151;
+    border-radius: 10px;
+    height: 35px;
+    border: 0px;
+    width: 80px;
+    transition: 0.5s;
+    font-size: 100%;
+    font-weight: 600;
+    margin: 10px;
+}
+
+#baixar:hover{
+    transition: 0.5s;
+    background-color: #493e2e;
+}
+
+#tt{
+    justify-content: flex-start;
+    width: 130%;
+    font-weight: 410;
+    font-size: 150%;
+    line-height: 150%;
+}
+
+#baixeja{
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    border: 0px;
+    border-radius: 10px;
+    height: 60px;
+    width: 60%;
+    transition: 1s;
+    background-color: #867151;
+}
+
+#baixeja:hover{
+    transition: 1s;
+    background-color: #493e2e;
+}
+
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
 /* =-=-=-=-=-=-=-=-=-=-= Sem categoria =-=-=-=-=-=-=-=-=-=-=*/
 
 .ancora {
     display: block;
+<<<<<<< HEAD
     height: 130px;
     margin-top: -200px; 
+=======
+    height: 90px;
+    margin-top: -100px; 
+>>>>>>> 2b5188b09823e9a97a5bff01ae5055f524467bcb
     visibility: hidden;
+}
+
+.negrito {
+    font-weight: bold;
 }
